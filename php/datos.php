@@ -58,14 +58,14 @@
                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                  <span aria-hidden="true">&times;</span>
                </button>
-               <strong>:D</strong> El registro co id: '.$id.' se ha guardado correctamente.
+               <strong>:D</strong> El registro con id: '.$id.' se ha guardado correctamente.
              </div>');
            }else {
             echo('<div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>:C</strong> Ocurrio un error inesperado.
+            <strong>:C</strong> Ocurrio un error inesperado o los registros ya existen en la base de datos.
           </div>');
                break;
            }
