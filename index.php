@@ -22,7 +22,7 @@
     </div>
     <section class="container">
             <button class="btn btn-primary" id="boton" onclick="obtenerDatos()">Obtener datos</button>
-            <button class="btn btn-primary disabled" id="save" onclick="guardarDatos()">Guardar datos</button>
+           <!--  <button class="btn btn-primary disabled" id="save" onclick="guardarDatos()">Guardar datos</button> -->
 
         <ul class="mt-4" id="listaResultados"><!-- datos obtenidos --></ul>
     </section>
